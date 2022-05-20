@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -822,7 +822,8 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"fire_rate","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"projectil_speed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bulletdamage","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"attack
       distance","value":{"$content":25.0,"$type":"System.Single"},"$version":"A"},{"name":"player
       is dead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Slidespeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Player_Health","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"attack
-      cac","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      cac","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"Guncount","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8518400097436022247, guid: 7f34c4a2c6a4caa4790d0c9576b78232, type: 3}
 --- !u!4 &1770292387

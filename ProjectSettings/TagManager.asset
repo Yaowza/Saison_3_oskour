@@ -7,6 +7,7 @@ TagManager:
   - Terrain
   - Projectil
   - Enemi
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

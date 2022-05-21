@@ -47,7 +47,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 275544029663404830, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
       propertyPath: m_Radius
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 275544029663404830, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
       propertyPath: m_Enabled
@@ -224,6 +224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: The sniper
       objectReference: {fileID: 0}
+    - target: {fileID: 5980229478519499838, guid: 05c5066ca3b6f894aa2a63fe7e1bd66b, type: 3}
+      propertyPath: m_Radius
+      value: 17
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05c5066ca3b6f894aa2a63fe7e1bd66b, type: 3}
 --- !u!4 &6525095546144966381 stripped
@@ -298,6 +302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret
       objectReference: {fileID: 0}
+    - target: {fileID: 8010311328569454457, guid: c64f01691e4742e4585c23ca2aa700a7, type: 3}
+      propertyPath: m_Radius
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64f01691e4742e4585c23ca2aa700a7, type: 3}
 --- !u!4 &6525095544951916292 stripped
@@ -312,6 +320,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7050370674779166797}
     m_Modifications:
+    - target: {fileID: 1666725017233602483, guid: 91f966bcf746e364dbacbe9678dc9281, type: 3}
+      propertyPath: m_Radius
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1666725017980365093, guid: 91f966bcf746e364dbacbe9678dc9281, type: 3}
       propertyPath: m_Name
       value: Minigun guy

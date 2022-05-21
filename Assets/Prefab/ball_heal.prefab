@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7700197882980536806}
   m_Layer: 0
   m_Name: ball_heal
-  m_TagString: Projectil
+  m_TagString: Soda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

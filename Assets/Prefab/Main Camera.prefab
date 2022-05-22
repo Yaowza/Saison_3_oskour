@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7373567677173035120}
-  m_LocalRotation: {x: 0.20317672, y: -0, z: -0, w: 0.9791421}
+  m_LocalRotation: {x: 0.20318039, y: 0, z: 0, w: 0.97914135}
   m_LocalPosition: {x: 2.452, y: 9.77, z: -12.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"z offset","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"z offset","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &7373567677173035133
 MonoBehaviour:

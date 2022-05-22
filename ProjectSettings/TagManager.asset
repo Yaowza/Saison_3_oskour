@@ -7,12 +7,13 @@ TagManager:
   - Terrain
   - Projectil
   - Enemi
-  - Checkpoint
+  - Coin
+  - Soda
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PlayerInvincible
   - Water
   - UI
   - Terrain

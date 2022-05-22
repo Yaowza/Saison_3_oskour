@@ -18,13 +18,13 @@ public class WeaponSwitching : MonoBehaviour
     private void Update()
     {
         int previousSelectedWeapon = selectedWeapon;
-        
+
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             selectedWeapon = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >= 2)
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             selectedWeapon = 1;
         }
@@ -33,23 +33,12 @@ public class WeaponSwitching : MonoBehaviour
         {
             SelectWeapon();
         }
-       
-        
+
+
     }
 
     private void SelectWeapon()
     {
-        /*foreach (Transform weapon in transform)
-        {
-            int i = 0;
-            if (i == selectedWeapon)
-                    weapon.gameObject.SetActive(true);
-                else
-                    weapon.gameObject.SetActive(false);
-                i++;
-            
-        }*/
-
         _weapons.ForEach(w => w.SetActive(false));
         _weapons[selectedWeapon].SetActive(true);
     }

@@ -205,7 +205,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726121083}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9d3a2d9d813b04585ee95bb46f6f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedWeapon: 1
+  selectedWeapon: 0
   _weapons:
   - {fileID: 997951679}
   - {fileID: 2042157893}
@@ -693,7 +693,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &997951680
 Transform:
   m_ObjectHideFlags: 0
@@ -822,10 +822,12 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"fire_rate","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"projectil_speed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bulletdamage","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"attack
       distance","value":{"$content":25.0,"$type":"System.Single"},"$version":"A"},{"name":"player
       is dead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Slidespeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Player_Health","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"attack
-      cac","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"Guncount","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      cac","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"Guncount","value":{"$content":[1,2],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8518400097436022247, guid: 7f34c4a2c6a4caa4790d0c9576b78232, type: 3}
+    - {fileID: 997951679}
+    - {fileID: 2042157893}
 --- !u!4 &1770292387
 Transform:
   m_ObjectHideFlags: 0
@@ -849,7 +851,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8901399682550993857, guid: 7f34c4a2c6a4caa4790d0c9576b78232, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 2.22
       objectReference: {fileID: 0}
     - target: {fileID: -7129284227922291652, guid: 7f34c4a2c6a4caa4790d0c9576b78232, type: 3}
       propertyPath: _data._json
@@ -1009,7 +1011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2042157894
 Transform:
   m_ObjectHideFlags: 0

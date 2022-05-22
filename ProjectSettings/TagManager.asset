@@ -8,6 +8,7 @@ TagManager:
   - Projectil
   - Enemi
   - Checkpoint
+  - Wall
   layers:
   - Default
   - TransparentFX

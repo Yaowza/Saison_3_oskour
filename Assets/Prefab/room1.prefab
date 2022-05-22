@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4726343136916066553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6461703478211880516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 2bb779d056a62954e8ead867bab61810, type: 2}
 --- !u!1 &6507639667541846338
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,6 +156,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 275544030545182090, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275544030545182093, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Player is near","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Can
+        see Player","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"IsDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"projectil
+        spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"munitions","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"can
+        drop","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"dropcoin","value":{"$content":"dropcoin","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 275544030545182094, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
       propertyPath: m_Height
       value: 1.29
@@ -155,6 +182,14 @@ PrefabInstance:
     - target: {fileID: 275544030545182094, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133829547717236862, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3416860397233963481, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3958994132789880685, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -251,6 +286,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 275544030545182090, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 275544030545182093, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Player is near","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Can
+        see Player","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"IsDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"projectil
+        spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"munitions","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"dropcoin","value":{"$content":"dropcoin","$type":"System.String"},"$version":"A"},{"name":"can
+        drop","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 275544030545182094, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
       propertyPath: m_Height
       value: 1.29
@@ -265,6 +311,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 275544030545182094, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133829547717236862, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3958994132789880685, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
@@ -282,6 +332,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1082303790, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+--- !u!1 &6461703478211880516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 275544030545182088, guid: 45b1872d23da201499d08b96e27411e6, type: 3}
+  m_PrefabInstance: {fileID: 6520782102582418380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6461703478211880525 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 275544030545182081, guid: 45b1872d23da201499d08b96e27411e6, type: 3}

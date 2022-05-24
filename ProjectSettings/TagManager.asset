@@ -9,6 +9,7 @@ TagManager:
   - Enemi
   - Coin
   - Soda
+  - ami
   layers:
   - Default
   - TransparentFX

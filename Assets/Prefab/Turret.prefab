@@ -106,9 +106,7 @@ PrefabInstance:
       value: '{"declarations":{"collection":{"$content":[{"name":"Player is near","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Can
         see Player","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"IsDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"projectil
         spawn","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"can
-        drop","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"dropcoin","value":{"$content":"dropcoin","$type":"System.String"},"$version":"A"},{"name":"Enemi
-        is near","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Can
-        see Enemi","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        drop","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"dropcoin","value":{"$content":"dropcoin","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6690064348389554709, guid: 1a7ffd0d0051bc94199a8b5caea99e23, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -184,7 +182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6690064348734121090, guid: 1a7ffd0d0051bc94199a8b5caea99e23, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6690064348734121094, guid: 1a7ffd0d0051bc94199a8b5caea99e23, type: 3}
       propertyPath: m_Radius

@@ -10,7 +10,6 @@ TagManager:
   - Coin
   - Soda
   - ami
-  - Checkpoint
   layers:
   - Default
   - TransparentFX

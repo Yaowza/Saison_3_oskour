@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: exit
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-76.96664,"y":56.51111},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"Quit","parameterTypes":[],"targetType":"UnityEngine.Application","targetTypeName":"UnityEngine.Application","$version":"A"},"defaultValues":{},"position":{"x":224.0,"y":-41.0},"guid":"02986973-973d-4a9b-9bb5-b25d15a531ae","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-73.0,"y":-12.0},"guid":"5833b8b7-de04-4789-86bb-c8c8f92a3fc7","$version":"A","$type":"Bolt.OnButtonClick","$id":"12"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"fc82781b-5f13-4bac-b673-a9fc8fe2a2ea","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

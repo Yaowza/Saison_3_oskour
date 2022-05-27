@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -3871147750634891303}
   - component: {fileID: 8062823563201783313}
   - component: {fileID: 1450799610407134813}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ball_player_sniper
   m_TagString: Projectil
   m_Icon: {fileID: 0}

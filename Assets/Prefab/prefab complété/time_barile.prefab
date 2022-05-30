@@ -62,8 +62,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"explo","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 7006590898270014960}
 --- !u!114 &7606749148772095476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +151,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19ff42f0af134ad4e9942df963f0f259, type: 3}
+--- !u!1 &7006590898270014960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4798871257352441629, guid: 19ff42f0af134ad4e9942df963f0f259, type: 3}
+  m_PrefabInstance: {fileID: 2568576496705569517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2856101163335959450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 290344012030001527, guid: 19ff42f0af134ad4e9942df963f0f259, type: 3}

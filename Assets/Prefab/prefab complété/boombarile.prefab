@@ -62,9 +62,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"expl","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"d\u00e9g\u00e0ts","value":{"$content":17.0,"$type":"System.Single"},"$version":"A"},{"name":"explo","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 6527698748494962320, guid: e88b09e293094014ca07550f4994a8e2, type: 3}
+    - {fileID: 5097709868779398336}
 --- !u!114 &7606749148772095476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,6 +167,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e88b09e293094014ca07550f4994a8e2, type: 3}
+--- !u!1 &5097709868779398336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6527698748494962320, guid: e88b09e293094014ca07550f4994a8e2, type: 3}
+  m_PrefabInstance: {fileID: 2029363598493792848}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5097709868779398341 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6527698748494962325, guid: e88b09e293094014ca07550f4994a8e2, type: 3}

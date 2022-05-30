@@ -149,6 +149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TIME BOOM
       objectReference: {fileID: 0}
+    - target: {fileID: 4798871257352441629, guid: 19ff42f0af134ad4e9942df963f0f259, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19ff42f0af134ad4e9942df963f0f259, type: 3}
 --- !u!1 &7006590898270014960 stripped

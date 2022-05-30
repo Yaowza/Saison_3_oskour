@@ -165,6 +165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: molo boom
       objectReference: {fileID: 0}
+    - target: {fileID: 5443337433075080254, guid: 611f85c5989bbd445a094dff703930e4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9202072509704212693, guid: 611f85c5989bbd445a094dff703930e4, type: 3}
       propertyPath: looping
       value: 0
@@ -334,6 +338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: molo partic
       objectReference: {fileID: 0}
+    - target: {fileID: 3394932387315802594, guid: a936c1d4fe4844947b6bc7ed52304bb0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5769215912850708191, guid: a936c1d4fe4844947b6bc7ed52304bb0, type: 3}
       propertyPath: looping
       value: 0
@@ -368,6 +376,10 @@ PrefabInstance:
     - target: {fileID: 1948537877324521529, guid: bfdb614aacd71d84ab786a8a5940b6d7, type: 3}
       propertyPath: m_Name
       value: molo flaque
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948537877324521529, guid: bfdb614aacd71d84ab786a8a5940b6d7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8793982867425544587, guid: bfdb614aacd71d84ab786a8a5940b6d7, type: 3}
       propertyPath: m_RootOrder

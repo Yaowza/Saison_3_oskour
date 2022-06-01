@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Snene/Menu.unity
     guid: a341e5866cb01b341b8ec82d22721de1
+  - enabled: 1
+    path: Assets/Snene/Cinematique 1.unity
+    guid: f6824da33d481c747999ccd40b505c56
   m_configObjects: {}

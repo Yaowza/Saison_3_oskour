@@ -2234,7 +2234,7 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"fire_rate","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"projectil_speed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bulletdamage","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"attack
       distance","value":{"$content":25.0,"$type":"System.Single"},"$version":"A"},{"name":"player
       is dead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Slidespeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Player_Health","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"enemy_fire_rate","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"cac
-      distance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      distance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Dashforce","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8518400097436022247, guid: 7f34c4a2c6a4caa4790d0c9576b78232, type: 3}
 --- !u!4 &1770292387
